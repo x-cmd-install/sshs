@@ -1,0 +1,58 @@
+about:
+  description: Terminal user interface for SSH
+  license: MIT
+  homepage: 
+  head: 51e2cac
+  archived: false
+  latestVersion: 4.8.0
+  collectedAt: 2026-08-29T07:28:52Z
+timeline:
+  created: 2022-01-31
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-28
+popularity:
+  star: 1578
+  watcher: 13
+  fork: 56
+  release: 36
+  contributor: 13
+  pullRequest: 16
+  issue: 83
+language:
+  Rust: 69031
+  Dockerfile: 410
+  Shell: 193
+totalLine: 69634
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 1
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 20
+  last90d:
+    since: 2026-05-31
+    release: 1
+    mergedPR: 2
+    openPR: 0
+    closedIssue: 1
+    openIssue: 0
+    commit: 28
+  last180d:
+    since: 2026-03-02
+    release: 1
+    mergedPR: 3
+    openPR: 2
+    closedIssue: 1
+    openIssue: 1
+    commit: 30
+  last360d:
+    since: 2025-09-03
+    release: 1
+    mergedPR: 3
+    openPR: 5
+    closedIssue: 2
+    openIssue: 2
+    commit: 32
