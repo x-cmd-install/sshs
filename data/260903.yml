@@ -1,11 +1,13 @@
 about:
-  description: Terminal user interface for SSH
+  description:
+  |
+    Terminal user interface for SSH
   license: MIT
   homepage: 
   head: f3838c0
   archived: false
   latestVersion: 4.8.0
-  collectedAt: 2026-09-03T05:13:41Z
+  collectedAt: 2026-09-03T22:36:17Z
 timeline:
   created: 2022-01-31
   lastCommit: 2026-08-29
@@ -22,7 +24,7 @@ language:
   Rust: 71903
   Dockerfile: 410
   Shell: 193
-totalLine: 72506
+totalBytes: 72506
 recent:
   last30d:
     since: 2026-08-04
