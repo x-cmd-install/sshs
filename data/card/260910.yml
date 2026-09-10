@@ -7,7 +7,7 @@ about:
   latestVersion: "4.8.0"
   latestRelease: "4.8.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:19:04Z
+  collectedAt: 2026-09-10T23:24:32Z
 timeline:
   created: 2022-01-31
   lastCommit: 2026-08-29
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-28
   lastPrerelease: 
 popularity:
-  star: 1600
+  star: 1601
   watcher: 11
   fork: 59
   release: 36
@@ -85,7 +85,7 @@ total:
   commit: 196
 ---
 path: /home/runner/.x-repo/github.com/quantumsheep/sshs
-collectedAt: 2026-09-10T20:19:05Z
+collectedAt: 2026-09-10T23:24:33Z
 loc:
   Rust:
     code: 1980

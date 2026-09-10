@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 2290712,
       "digest": "sha256:ce43f8180f11b7441641b40c4137f68b6a6c56fd814b8210c85953199c84c276",
-      "download_count": 39,
+      "download_count": 41,
       "created_at": "2026-08-28T16:14:40Z",
       "updated_at": "2026-08-28T16:14:41Z",
       "browser_download_url": "https://github.com/quantumsheep/sshs/releases/download/4.8.0/sshs-linux-amd64-musl"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 112,
       "digest": "sha256:7d11c22072f6210fab9614ab774ed3b5a27ca6e204ed40266cf39dbf1d9a64c3",
-      "download_count": 17,
+      "download_count": 18,
       "created_at": "2026-08-28T16:14:42Z",
       "updated_at": "2026-08-28T16:14:42Z",
       "browser_download_url": "https://github.com/quantumsheep/sshs/releases/download/4.8.0/sshs-linux-amd64-musl.sha256"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 2330112,
       "digest": "sha256:4e249f479adee078b411dab9f5455d0bfa24476c5f1a9e95c3627fb36af701e7",
-      "download_count": 171,
+      "download_count": 173,
       "created_at": "2026-08-28T16:15:37Z",
       "updated_at": "2026-08-28T16:15:37Z",
       "browser_download_url": "https://github.com/quantumsheep/sshs/releases/download/4.8.0/sshs-windows-amd64.exe"
