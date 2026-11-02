@@ -1,10 +1,16 @@
-- repo: chocolatey
+- repo: alpine_edge
+  subrepo: testing
+  srcname: sshs
   binname: sshs
   visiblename: sshs
   version: 4.8.0
-  origversion: null
+  origversion: 4.8.0-r1
   status: newest
-  summary: Terminal user interface for SSH.
+  summary: Terminal user interface for SSH
+  maintainers:
+    - robincandau@mailbox.org
+  licenses:
+    - MIT
 - repo: alt_p11
   srcname: sshs
   binnames:
@@ -37,19 +43,6 @@
     - MIT
   categories:
     - Development/Other
-- repo: alpine_edge
-  subrepo: testing
-  srcname: sshs
-  binname: sshs
-  visiblename: sshs
-  version: 4.8.0
-  origversion: 4.8.0-r1
-  status: newest
-  summary: Terminal user interface for SSH
-  maintainers:
-    - robincandau@mailbox.org
-  licenses:
-    - MIT
 - repo: arch
   subrepo: extra
   srcname: sshs
@@ -61,6 +54,13 @@
   summary: Terminal user interface for SSH
   licenses:
     - MIT
+- repo: chocolatey
+  binname: sshs
+  visiblename: sshs
+  version: 4.8.0
+  origversion: null
+  status: newest
+  summary: Terminal user interface for SSH.
 - repo: homebrew
   srcname: sshs
   visiblename: sshs
@@ -82,28 +82,6 @@
     - MIT
   categories:
     - net
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: sshs
-  binname: sshs
-  visiblename: sshs
-  version: 4.8.0
-  origversion: 4.8.0-1
-  status: newest
-  summary: Terminal user interface for SSH
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: sshs
-  binname: sshs
-  visiblename: sshs
-  version: 4.8.0
-  origversion: 4.8.0-1
-  status: newest
-  summary: Terminal user interface for SSH
-  licenses:
-    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: sshs
