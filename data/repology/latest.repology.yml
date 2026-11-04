@@ -1,3 +1,14 @@
+- repo: parabola
+  subrepo: extra
+  srcname: sshs
+  binname: sshs
+  visiblename: sshs
+  version: 4.8.0
+  origversion: 4.8.0-1
+  status: newest
+  summary: Terminal user interface for SSH
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: sshs
@@ -33,9 +44,9 @@
     - sshs
     - sshs-debuginfo
   visiblename: sshs
-  version: 4.7.2
-  origversion: 4.7.2-alt1
-  status: outdated
+  version: 4.8.0
+  origversion: 4.8.0-alt1
+  status: newest
   summary: Terminal user interface for SSH
   maintainers:
     - sirius@altlinux.org
@@ -157,17 +168,6 @@
   summary: Terminal user interface for SSH
   maintainers:
     - michal@tar.black
-  licenses:
-    - MIT
-- repo: parabola
-  subrepo: extra
-  srcname: sshs
-  binname: sshs
-  visiblename: sshs
-  version: 4.8.0
-  origversion: 4.8.0-1
-  status: newest
-  summary: Terminal user interface for SSH
   licenses:
     - MIT
 - repo: pkgsrc_2026_2
