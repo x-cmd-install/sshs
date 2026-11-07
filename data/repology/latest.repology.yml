@@ -1,12 +1,10 @@
-- repo: parabola
-  subrepo: extra
-  srcname: sshs
+- repo: scoop
+  subrepo: extras
   binname: sshs
   visiblename: sshs
   version: 4.8.0
-  origversion: 4.8.0-1
+  origversion: null
   status: newest
-  summary: Terminal user interface for SSH
   licenses:
     - MIT
 - repo: alpine_edge
@@ -93,6 +91,28 @@
     - MIT
   categories:
     - net
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: sshs
+  binname: sshs
+  visiblename: sshs
+  version: 4.8.0
+  origversion: 4.8.0-1
+  status: newest
+  summary: Terminal user interface for SSH
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: sshs
+  binname: sshs
+  visiblename: sshs
+  version: 4.8.0
+  origversion: 4.8.0-1
+  status: newest
+  summary: Terminal user interface for SSH
+  licenses:
+    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: sshs
@@ -170,6 +190,17 @@
     - michal@tar.black
   licenses:
     - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: sshs
+  binname: sshs
+  visiblename: sshs
+  version: 4.8.0
+  origversion: 4.8.0-1
+  status: newest
+  summary: Terminal user interface for SSH
+  licenses:
+    - MIT
 - repo: pkgsrc_2026_2
   srcname: security/sshs
   binname: sshs
@@ -206,12 +237,3 @@
     - pkgsrc-users@netbsd.org
   categories:
     - security
-- repo: scoop
-  subrepo: extras
-  binname: sshs
-  visiblename: sshs
-  version: 4.8.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
