@@ -1,10 +1,45 @@
-- repo: scoop
-  subrepo: extras
-  binname: sshs
+- repo: nix_stable_24_11
+  srcname: sshs
   visiblename: sshs
-  version: 4.8.0
+  version: 4.5.1
   origversion: null
-  status: newest
+  status: outdated
+  summary: Terminal user interface for SSH
+  maintainers:
+    - michal@tar.black
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: sshs
+  visiblename: sshs
+  version: 4.7.2
+  origversion: null
+  status: outdated
+  summary: Terminal user interface for SSH
+  maintainers:
+    - michal@tar.black
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: sshs
+  visiblename: sshs
+  version: 4.7.2
+  origversion: null
+  status: outdated
+  summary: Terminal user interface for SSH
+  maintainers:
+    - michal@tar.black
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: sshs
+  visiblename: sshs
+  version: 4.2.1
+  origversion: null
+  status: outdated
+  summary: Terminal user interface for SSH
+  maintainers:
+    - michal@tar.black
   licenses:
     - MIT
 - repo: alpine_edge
@@ -26,9 +61,9 @@
     - sshs
     - sshs-debuginfo
   visiblename: sshs
-  version: 4.7.2
-  origversion: 4.7.2-alt1
-  status: outdated
+  version: 4.8.0
+  origversion: 4.8.0-alt1
+  status: newest
   summary: Terminal user interface for SSH
   maintainers:
     - sirius@altlinux.org
@@ -124,50 +159,6 @@
   summary: Terminal user interface for SSH
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: sshs
-  visiblename: sshs
-  version: 4.2.1
-  origversion: null
-  status: outdated
-  summary: Terminal user interface for SSH
-  maintainers:
-    - michal@tar.black
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: sshs
-  visiblename: sshs
-  version: 4.5.1
-  origversion: null
-  status: outdated
-  summary: Terminal user interface for SSH
-  maintainers:
-    - michal@tar.black
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: sshs
-  visiblename: sshs
-  version: 4.7.2
-  origversion: null
-  status: outdated
-  summary: Terminal user interface for SSH
-  maintainers:
-    - michal@tar.black
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: sshs
-  visiblename: sshs
-  version: 4.7.2
-  origversion: null
-  status: outdated
-  summary: Terminal user interface for SSH
-  maintainers:
-    - michal@tar.black
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: sshs
   visiblename: sshs
@@ -237,3 +228,12 @@
     - pkgsrc-users@netbsd.org
   categories:
     - security
+- repo: scoop
+  subrepo: extras
+  binname: sshs
+  visiblename: sshs
+  version: 4.8.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
